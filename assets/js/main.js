@@ -25,7 +25,7 @@ streamer.onMessage = function(evt) {
 streamer.onClose = function() {
     alert("Mobile is disconnected!");
     $("#btnPlay").prop('disabled', true);
-    $("#spanInfo").html("Please relaod...");
+    $("#spanInfo").html("Please reload...");
 };
 
 var connect = function() {
